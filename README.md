@@ -73,6 +73,7 @@ func tailFactorial(_ n: Int, _ acc: Int = 0) -> Int {
   - 스칼라에는 꼬리 재귀 최적화 기능을 가지고 있음
   - @tailrec라고 재귀 함수 앞에 붙이면 스칼라 컴파일러에 꼬리재귀가 있으니 최적화 하라고 알려준다
   
+  
   ## 고계함수
   - 다른 함수를 인수로 취하거나, 함수를 반환하는 함수를 고계 함수(higher-order function)이라고 부른다.
   - ex) map, flatmap, filter, reduce 등
