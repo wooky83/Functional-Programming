@@ -116,7 +116,7 @@ func flatMap<ElementOfResult>(_ transform: (Element) throws -> ElementOfResult?)
   - 결합법칙
 - 모나드는 함수객체(Functor)의 일종이다
 - 함수객체는 맵 함수를 적용할 수 있는 맵 함수를 지원하는 컨테이너 타입
-- 모다다는 값이 있을수도 있고 없을 수도 있는 컨텍스트를 가지는 함수객체 타입
+- 모나드는 값이 있을수도 있고 없을 수도 있는 컨텍스트를 가지는 함수객체 타입
 - Swift에는 이와 같은 기능을 수행하기 위한 flatMap이라는 메서드가 있다
 - flatMap은 값을 받아서 값이 있으면 포장을 풀어서 값을 처리한 후 포장된 값을 반환하고, 값이 없으면 값이 없는대로 다시 포장하여 반환
 - map과 flatMap의 차이
